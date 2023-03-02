@@ -1,0 +1,1311 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='compiled' inline='true' name='federated.01sb9vo1j4bzsh15f646i1f7h7la' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='compiled' name='textscan.1796exp1h3af6a18sh4jv0uzspl4'>
+            <connection class='textscan' directory='C:/Users/1810-9316 Scouting/Desktop/2023-Scouting-Compiler/resources' filename='compiled.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1796exp1h3af6a18sh4jv0uzspl4' name='compiled.csv' table='[compiled#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='MatchId' ordinal='0' />
+            <column datatype='integer' name='TeamId' ordinal='1' />
+            <column datatype='string' name='Color' ordinal='2' />
+            <column datatype='integer' name='AutoLowCone' ordinal='3' />
+            <column datatype='integer' name='AutoLowCube' ordinal='4' />
+            <column datatype='integer' name='AutoMidCone' ordinal='5' />
+            <column datatype='integer' name='AutoMidCube' ordinal='6' />
+            <column datatype='integer' name='AutoHighCone' ordinal='7' />
+            <column datatype='integer' name='AutoHighCube' ordinal='8' />
+            <column datatype='boolean' name='AutoLeftComm' ordinal='9' />
+            <column datatype='boolean' name='AutoDocked' ordinal='10' />
+            <column datatype='boolean' name='AutoEngaged' ordinal='11' />
+            <column datatype='integer' name='TeleLowCone' ordinal='12' />
+            <column datatype='integer' name='TeleLowCube' ordinal='13' />
+            <column datatype='integer' name='TeleMidCone' ordinal='14' />
+            <column datatype='integer' name='TeleMidCube' ordinal='15' />
+            <column datatype='integer' name='TeleHighCone' ordinal='16' />
+            <column datatype='integer' name='TeleHighCube' ordinal='17' />
+            <column datatype='boolean' name='TeleLeftComm' ordinal='18' />
+            <column datatype='boolean' name='TeleDocked' ordinal='19' />
+            <column datatype='boolean' name='TeleEngaged' ordinal='20' />
+            <column datatype='string' name='TeleTeamRole' ordinal='21' />
+            <column datatype='boolean' name='TeleDirtyPlay' ordinal='22' />
+            <column datatype='string' name='EndGameNotes' ordinal='23' />
+            <column datatype='boolean' name='Won' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1796exp1h3af6a18sh4jv0uzspl4' name='compiled.csv' table='[compiled#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='MatchId' ordinal='0' />
+            <column datatype='integer' name='TeamId' ordinal='1' />
+            <column datatype='string' name='Color' ordinal='2' />
+            <column datatype='integer' name='AutoLowCone' ordinal='3' />
+            <column datatype='integer' name='AutoLowCube' ordinal='4' />
+            <column datatype='integer' name='AutoMidCone' ordinal='5' />
+            <column datatype='integer' name='AutoMidCube' ordinal='6' />
+            <column datatype='integer' name='AutoHighCone' ordinal='7' />
+            <column datatype='integer' name='AutoHighCube' ordinal='8' />
+            <column datatype='boolean' name='AutoLeftComm' ordinal='9' />
+            <column datatype='boolean' name='AutoDocked' ordinal='10' />
+            <column datatype='boolean' name='AutoEngaged' ordinal='11' />
+            <column datatype='integer' name='TeleLowCone' ordinal='12' />
+            <column datatype='integer' name='TeleLowCube' ordinal='13' />
+            <column datatype='integer' name='TeleMidCone' ordinal='14' />
+            <column datatype='integer' name='TeleMidCube' ordinal='15' />
+            <column datatype='integer' name='TeleHighCone' ordinal='16' />
+            <column datatype='integer' name='TeleHighCube' ordinal='17' />
+            <column datatype='boolean' name='TeleLeftComm' ordinal='18' />
+            <column datatype='boolean' name='TeleDocked' ordinal='19' />
+            <column datatype='boolean' name='TeleEngaged' ordinal='20' />
+            <column datatype='string' name='TeleTeamRole' ordinal='21' />
+            <column datatype='boolean' name='TeleDirtyPlay' ordinal='22' />
+            <column datatype='string' name='EndGameNotes' ordinal='23' />
+            <column datatype='boolean' name='Won' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MatchId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MatchId]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>MatchId</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeamId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeamId]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeamId</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Color</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Color]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>Color</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoLowCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoLowCone]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoLowCone</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoLowCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoLowCube]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoLowCube</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoMidCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoMidCone]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoMidCone</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoMidCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoMidCube]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoMidCube</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoHighCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoHighCone]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoHighCone</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoHighCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoHighCube]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoHighCube</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoLeftComm</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[AutoLeftComm]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoLeftComm</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoDocked</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[AutoDocked]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoDocked</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoEngaged</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[AutoEngaged]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>AutoEngaged</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleLowCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleLowCone]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleLowCone</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleLowCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleLowCube]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleLowCube</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleMidCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleMidCone]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleMidCone</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleMidCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleMidCube]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleMidCube</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleHighCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleHighCone]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleHighCone</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleHighCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleHighCube]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleHighCube</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleLeftComm</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[TeleLeftComm]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleLeftComm</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleDocked</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[TeleDocked]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleDocked</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleEngaged</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[TeleEngaged]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleEngaged</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleTeamRole</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TeleTeamRole]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleTeamRole</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleDirtyPlay</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[TeleDirtyPlay]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>TeleDirtyPlay</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EndGameNotes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EndGameNotes]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>EndGameNotes</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Won</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Won]</local-name>
+            <parent-name>[compiled.csv]</parent-name>
+            <remote-alias>Won</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Auto Docked' datatype='boolean' name='[AutoDocked]' role='dimension' type='nominal' />
+      <column caption='Auto Engaged' datatype='boolean' name='[AutoEngaged]' role='dimension' type='nominal' />
+      <column caption='Auto High Cone' datatype='integer' name='[AutoHighCone]' role='measure' type='quantitative' />
+      <column caption='Auto High Cube' datatype='integer' name='[AutoHighCube]' role='measure' type='quantitative' />
+      <column caption='Auto Left Comm' datatype='boolean' name='[AutoLeftComm]' role='dimension' type='nominal' />
+      <column caption='Auto Low Cone' datatype='integer' name='[AutoLowCone]' role='measure' type='quantitative' />
+      <column caption='Auto Low Cube' datatype='integer' name='[AutoLowCube]' role='measure' type='quantitative' />
+      <column caption='Auto Mid Cone' datatype='integer' name='[AutoMidCone]' role='measure' type='quantitative' />
+      <column caption='Auto Mid Cube' datatype='integer' name='[AutoMidCube]' role='measure' type='quantitative' />
+      <column caption='Auto High Cone - Score' datatype='integer' name='[Calculation_941815340792373248]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([AutoHighCone])*6' />
+      </column>
+      <column caption='End Game Notes' datatype='string' name='[EndGameNotes]' role='dimension' type='nominal' />
+      <column caption='Match Id' datatype='integer' name='[MatchId]' role='dimension' type='ordinal' />
+      <column caption='Team Id' datatype='integer' name='[TeamId]' role='dimension' type='ordinal' />
+      <column caption='Tele Dirty Play' datatype='boolean' name='[TeleDirtyPlay]' role='dimension' type='nominal' />
+      <column caption='Tele Docked' datatype='boolean' name='[TeleDocked]' role='dimension' type='nominal' />
+      <column caption='Tele Engaged' datatype='boolean' name='[TeleEngaged]' role='dimension' type='nominal' />
+      <column caption='Tele High Cone' datatype='integer' name='[TeleHighCone]' role='measure' type='quantitative' />
+      <column caption='Tele High Cube' datatype='integer' name='[TeleHighCube]' role='measure' type='quantitative' />
+      <column caption='Tele Left Comm' datatype='boolean' name='[TeleLeftComm]' role='dimension' type='nominal' />
+      <column caption='Tele Low Cone' datatype='integer' name='[TeleLowCone]' role='measure' type='quantitative' />
+      <column caption='Tele Low Cube' datatype='integer' name='[TeleLowCube]' role='measure' type='quantitative' />
+      <column caption='Tele Mid Cone' datatype='integer' name='[TeleMidCone]' role='measure' type='quantitative' />
+      <column caption='Tele Mid Cube' datatype='integer' name='[TeleMidCube]' role='measure' type='quantitative' />
+      <column caption='Tele Team Role' datatype='string' name='[TeleTeamRole]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='compiled.csv' datatype='table' name='[__tableau_internal_object_id__].[compiled.csv_2D953EE8E5244776A898A9142FD15E7E]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='MatchId' />
+        <field-sort-custom-order field='TeamId' />
+        <field-sort-custom-order field='Color' />
+        <field-sort-custom-order field='AutoLowCone' />
+        <field-sort-custom-order field='AutoLowCube' />
+        <field-sort-custom-order field='AutoMidCone' />
+        <field-sort-custom-order field='AutoMidCube' />
+        <field-sort-custom-order field='AutoHighCone' />
+        <field-sort-custom-order field='Calculation_941815340792373248' />
+        <field-sort-custom-order field='AutoHighCube' />
+        <field-sort-custom-order field='AutoLeftComm' />
+        <field-sort-custom-order field='AutoDocked' />
+        <field-sort-custom-order field='AutoEngaged' />
+        <field-sort-custom-order field='TeleLowCone' />
+        <field-sort-custom-order field='TeleLowCube' />
+        <field-sort-custom-order field='TeleMidCone' />
+        <field-sort-custom-order field='TeleMidCube' />
+        <field-sort-custom-order field='TeleHighCone' />
+        <field-sort-custom-order field='TeleHighCube' />
+        <field-sort-custom-order field='TeleLeftComm' />
+        <field-sort-custom-order field='TeleDocked' />
+        <field-sort-custom-order field='TeleEngaged' />
+        <field-sort-custom-order field='TeleTeamRole' />
+        <field-sort-custom-order field='TeleDirtyPlay' />
+        <field-sort-custom-order field='EndGameNotes' />
+        <field-sort-custom-order field='Won' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='compiled.csv' id='compiled.csv_2D953EE8E5244776A898A9142FD15E7E'>
+            <properties context=''>
+              <relation connection='textscan.1796exp1h3af6a18sh4jv0uzspl4' name='compiled.csv' table='[compiled#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='MatchId' ordinal='0' />
+                  <column datatype='integer' name='TeamId' ordinal='1' />
+                  <column datatype='string' name='Color' ordinal='2' />
+                  <column datatype='integer' name='AutoLowCone' ordinal='3' />
+                  <column datatype='integer' name='AutoLowCube' ordinal='4' />
+                  <column datatype='integer' name='AutoMidCone' ordinal='5' />
+                  <column datatype='integer' name='AutoMidCube' ordinal='6' />
+                  <column datatype='integer' name='AutoHighCone' ordinal='7' />
+                  <column datatype='integer' name='AutoHighCube' ordinal='8' />
+                  <column datatype='boolean' name='AutoLeftComm' ordinal='9' />
+                  <column datatype='boolean' name='AutoDocked' ordinal='10' />
+                  <column datatype='boolean' name='AutoEngaged' ordinal='11' />
+                  <column datatype='integer' name='TeleLowCone' ordinal='12' />
+                  <column datatype='integer' name='TeleLowCube' ordinal='13' />
+                  <column datatype='integer' name='TeleMidCone' ordinal='14' />
+                  <column datatype='integer' name='TeleMidCube' ordinal='15' />
+                  <column datatype='integer' name='TeleHighCone' ordinal='16' />
+                  <column datatype='integer' name='TeleHighCube' ordinal='17' />
+                  <column datatype='boolean' name='TeleLeftComm' ordinal='18' />
+                  <column datatype='boolean' name='TeleDocked' ordinal='19' />
+                  <column datatype='boolean' name='TeleEngaged' ordinal='20' />
+                  <column datatype='string' name='TeleTeamRole' ordinal='21' />
+                  <column datatype='boolean' name='TeleDirtyPlay' ordinal='22' />
+                  <column datatype='string' name='EndGameNotes' ordinal='23' />
+                  <column datatype='boolean' name='Won' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='FullCSVEXCOMP' inline='true' name='federated.0r71nqc03xvqvb1h4szu81f8u90v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='FullCSVEXCOMP' name='textscan.1b2ihz3067xrsn1chq99t0ocgcnt'>
+            <connection class='textscan' directory='C:/Users/1810-9316 Scouting/Downloads' filename='FullCSVEXCOMP.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1b2ihz3067xrsn1chq99t0ocgcnt' name='FullCSVEXCOMP.csv' table='[FullCSVEXCOMP#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='MatchId' ordinal='0' />
+            <column datatype='integer' name='TeamId' ordinal='1' />
+            <column datatype='string' name='Color' ordinal='2' />
+            <column datatype='integer' name='AutoLowCone' ordinal='3' />
+            <column datatype='integer' name='AutoLowCube' ordinal='4' />
+            <column datatype='integer' name='AutoMidCone' ordinal='5' />
+            <column datatype='integer' name='AutoMidCube' ordinal='6' />
+            <column datatype='integer' name='AutoHighCone' ordinal='7' />
+            <column datatype='integer' name='AutoHighCube' ordinal='8' />
+            <column datatype='boolean' name='AutoLeftComm' ordinal='9' />
+            <column datatype='boolean' name='AutoDocked' ordinal='10' />
+            <column datatype='boolean' name='AutoEngaged' ordinal='11' />
+            <column datatype='integer' name='TeleLowCone' ordinal='12' />
+            <column datatype='integer' name='TeleLowCube' ordinal='13' />
+            <column datatype='integer' name='TeleMidCone' ordinal='14' />
+            <column datatype='integer' name='TeleMidCube' ordinal='15' />
+            <column datatype='integer' name='TeleHighCone' ordinal='16' />
+            <column datatype='integer' name='TeleHighCube' ordinal='17' />
+            <column datatype='boolean' name='TeleLeftComm' ordinal='18' />
+            <column datatype='boolean' name='TeleDocked' ordinal='19' />
+            <column datatype='boolean' name='TeleEngaged' ordinal='20' />
+            <column datatype='string' name='TeleTeamRole' ordinal='21' />
+            <column datatype='boolean' name='TeleDirtyPlay' ordinal='22' />
+            <column datatype='string' name='EndGameNotes' ordinal='23' />
+            <column datatype='boolean' name='Won' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1b2ihz3067xrsn1chq99t0ocgcnt' name='FullCSVEXCOMP.csv' table='[FullCSVEXCOMP#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='MatchId' ordinal='0' />
+            <column datatype='integer' name='TeamId' ordinal='1' />
+            <column datatype='string' name='Color' ordinal='2' />
+            <column datatype='integer' name='AutoLowCone' ordinal='3' />
+            <column datatype='integer' name='AutoLowCube' ordinal='4' />
+            <column datatype='integer' name='AutoMidCone' ordinal='5' />
+            <column datatype='integer' name='AutoMidCube' ordinal='6' />
+            <column datatype='integer' name='AutoHighCone' ordinal='7' />
+            <column datatype='integer' name='AutoHighCube' ordinal='8' />
+            <column datatype='boolean' name='AutoLeftComm' ordinal='9' />
+            <column datatype='boolean' name='AutoDocked' ordinal='10' />
+            <column datatype='boolean' name='AutoEngaged' ordinal='11' />
+            <column datatype='integer' name='TeleLowCone' ordinal='12' />
+            <column datatype='integer' name='TeleLowCube' ordinal='13' />
+            <column datatype='integer' name='TeleMidCone' ordinal='14' />
+            <column datatype='integer' name='TeleMidCube' ordinal='15' />
+            <column datatype='integer' name='TeleHighCone' ordinal='16' />
+            <column datatype='integer' name='TeleHighCube' ordinal='17' />
+            <column datatype='boolean' name='TeleLeftComm' ordinal='18' />
+            <column datatype='boolean' name='TeleDocked' ordinal='19' />
+            <column datatype='boolean' name='TeleEngaged' ordinal='20' />
+            <column datatype='string' name='TeleTeamRole' ordinal='21' />
+            <column datatype='boolean' name='TeleDirtyPlay' ordinal='22' />
+            <column datatype='string' name='EndGameNotes' ordinal='23' />
+            <column datatype='boolean' name='Won' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MatchId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MatchId]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>MatchId</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeamId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeamId]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeamId</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Color</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Color]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>Color</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoLowCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoLowCone]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoLowCone</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoLowCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoLowCube]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoLowCube</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoMidCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoMidCone]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoMidCone</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoMidCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoMidCube]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoMidCube</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoHighCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoHighCone]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoHighCone</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoHighCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AutoHighCube]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoHighCube</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoLeftComm</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[AutoLeftComm]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoLeftComm</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoDocked</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[AutoDocked]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoDocked</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AutoEngaged</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[AutoEngaged]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>AutoEngaged</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleLowCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleLowCone]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleLowCone</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleLowCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleLowCube]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleLowCube</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleMidCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleMidCone]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleMidCone</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleMidCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleMidCube]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleMidCube</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleHighCone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleHighCone]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleHighCone</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleHighCube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeleHighCube]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleHighCube</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleLeftComm</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[TeleLeftComm]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleLeftComm</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleDocked</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[TeleDocked]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleDocked</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleEngaged</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[TeleEngaged]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleEngaged</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleTeamRole</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TeleTeamRole]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleTeamRole</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeleDirtyPlay</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[TeleDirtyPlay]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>TeleDirtyPlay</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EndGameNotes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EndGameNotes]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>EndGameNotes</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Won</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Won]</local-name>
+            <parent-name>[FullCSVEXCOMP.csv]</parent-name>
+            <remote-alias>Won</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Auto Docked' datatype='boolean' name='[AutoDocked]' role='dimension' type='nominal' />
+      <column caption='Auto Engaged' datatype='boolean' name='[AutoEngaged]' role='dimension' type='nominal' />
+      <column caption='Auto High Cone' datatype='integer' default-format='N' name='[AutoHighCone]' role='measure' type='quantitative' />
+      <column caption='Auto High Cube' datatype='integer' default-format='N' name='[AutoHighCube]' role='measure' type='quantitative' />
+      <column caption='Auto Left Comm' datatype='boolean' name='[AutoLeftComm]' role='dimension' type='nominal' />
+      <column caption='Auto Low Cone' datatype='integer' default-format='N' name='[AutoLowCone]' role='measure' type='quantitative' />
+      <column caption='Auto Low Cube' datatype='integer' default-format='N' name='[AutoLowCube]' role='measure' type='quantitative' />
+      <column caption='Auto Mid Cone' datatype='integer' default-format='N' name='[AutoMidCone]' role='measure' type='quantitative' />
+      <column caption='Auto Mid Cube' datatype='integer' default-format='N' name='[AutoMidCube]' role='measure' type='quantitative' />
+      <column caption='Auto High Cone -Score' datatype='integer' default-format='N' name='[Calculation_941815272076181505]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([AutoHighCone])*6' />
+      </column>
+      <column caption='Auto High Cube - Score' datatype='integer' default-format='N' name='[Calculation_941815272076754946]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([AutoHighCube])*6' />
+      </column>
+      <column caption='Auto Mid Cone - Score' datatype='integer' default-format='N' name='[Calculation_941815272076992515]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([AutoMidCone])*4' />
+      </column>
+      <column caption='Auto Mid Cube - Score' datatype='integer' default-format='N' name='[Calculation_941815272078266372]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([AutoMidCube])*4' />
+      </column>
+      <column caption='Auto Low Cone - Score' datatype='integer' default-format='N' name='[Calculation_941815272078491653]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([AutoLowCone])*3' />
+      </column>
+      <column caption='Auto Low Cube - Score' datatype='integer' default-format='N' name='[Calculation_941815272078684166]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([AutoLowCube])*3' />
+      </column>
+      <column caption='End Game Notes' datatype='string' name='[EndGameNotes]' role='dimension' type='nominal' />
+      <column caption='Match Id' datatype='integer' name='[MatchId]' role='dimension' type='ordinal' />
+      <column caption='Team Id' datatype='integer' name='[TeamId]' role='dimension' type='ordinal' />
+      <column caption='Tele Dirty Play' datatype='boolean' name='[TeleDirtyPlay]' role='dimension' type='nominal' />
+      <column caption='Tele Docked' datatype='boolean' name='[TeleDocked]' role='dimension' type='nominal' />
+      <column caption='Tele Engaged' datatype='boolean' name='[TeleEngaged]' role='dimension' type='nominal' />
+      <column caption='Tele High Cone' datatype='integer' name='[TeleHighCone]' role='measure' type='quantitative' />
+      <column caption='Tele High Cube' datatype='integer' name='[TeleHighCube]' role='measure' type='quantitative' />
+      <column caption='Tele Left Comm' datatype='boolean' name='[TeleLeftComm]' role='dimension' type='nominal' />
+      <column caption='Tele Low Cone' datatype='integer' name='[TeleLowCone]' role='measure' type='quantitative' />
+      <column caption='Tele Low Cube' datatype='integer' name='[TeleLowCube]' role='measure' type='quantitative' />
+      <column caption='Tele Mid Cone' datatype='integer' name='[TeleMidCone]' role='measure' type='quantitative' />
+      <column caption='Tele Mid Cube' datatype='integer' name='[TeleMidCube]' role='measure' type='quantitative' />
+      <column caption='Tele Team Role' datatype='string' name='[TeleTeamRole]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='FullCSVEXCOMP.csv' datatype='table' name='[__tableau_internal_object_id__].[FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='MatchId' />
+        <field-sort-custom-order field='TeamId' />
+        <field-sort-custom-order field='Color' />
+        <field-sort-custom-order field='AutoLowCone' />
+        <field-sort-custom-order field='Calculation_941815272078491653' />
+        <field-sort-custom-order field='AutoLowCube' />
+        <field-sort-custom-order field='Calculation_941815272078684166' />
+        <field-sort-custom-order field='AutoMidCone' />
+        <field-sort-custom-order field='Calculation_941815272076992515' />
+        <field-sort-custom-order field='AutoMidCube' />
+        <field-sort-custom-order field='Calculation_941815272078266372' />
+        <field-sort-custom-order field='AutoHighCone' />
+        <field-sort-custom-order field='Calculation_941815272076181505' />
+        <field-sort-custom-order field='AutoHighCube' />
+        <field-sort-custom-order field='Calculation_941815272076754946' />
+        <field-sort-custom-order field='AutoLeftComm' />
+        <field-sort-custom-order field='AutoDocked' />
+        <field-sort-custom-order field='AutoEngaged' />
+        <field-sort-custom-order field='TeleLowCone' />
+        <field-sort-custom-order field='TeleLowCube' />
+        <field-sort-custom-order field='TeleMidCone' />
+        <field-sort-custom-order field='TeleMidCube' />
+        <field-sort-custom-order field='TeleHighCone' />
+        <field-sort-custom-order field='TeleHighCube' />
+        <field-sort-custom-order field='TeleLeftComm' />
+        <field-sort-custom-order field='TeleDocked' />
+        <field-sort-custom-order field='TeleEngaged' />
+        <field-sort-custom-order field='TeleTeamRole' />
+        <field-sort-custom-order field='TeleDirtyPlay' />
+        <field-sort-custom-order field='EndGameNotes' />
+        <field-sort-custom-order field='Won' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='FullCSVEXCOMP.csv' id='FullCSVEXCOMP.csv_707BF167F1BE4ED5AD21752EC0690848'>
+            <properties context=''>
+              <relation connection='textscan.1b2ihz3067xrsn1chq99t0ocgcnt' name='FullCSVEXCOMP.csv' table='[FullCSVEXCOMP#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='MatchId' ordinal='0' />
+                  <column datatype='integer' name='TeamId' ordinal='1' />
+                  <column datatype='string' name='Color' ordinal='2' />
+                  <column datatype='integer' name='AutoLowCone' ordinal='3' />
+                  <column datatype='integer' name='AutoLowCube' ordinal='4' />
+                  <column datatype='integer' name='AutoMidCone' ordinal='5' />
+                  <column datatype='integer' name='AutoMidCube' ordinal='6' />
+                  <column datatype='integer' name='AutoHighCone' ordinal='7' />
+                  <column datatype='integer' name='AutoHighCube' ordinal='8' />
+                  <column datatype='boolean' name='AutoLeftComm' ordinal='9' />
+                  <column datatype='boolean' name='AutoDocked' ordinal='10' />
+                  <column datatype='boolean' name='AutoEngaged' ordinal='11' />
+                  <column datatype='integer' name='TeleLowCone' ordinal='12' />
+                  <column datatype='integer' name='TeleLowCube' ordinal='13' />
+                  <column datatype='integer' name='TeleMidCone' ordinal='14' />
+                  <column datatype='integer' name='TeleMidCube' ordinal='15' />
+                  <column datatype='integer' name='TeleHighCone' ordinal='16' />
+                  <column datatype='integer' name='TeleHighCube' ordinal='17' />
+                  <column datatype='boolean' name='TeleLeftComm' ordinal='18' />
+                  <column datatype='boolean' name='TeleDocked' ordinal='19' />
+                  <column datatype='boolean' name='TeleEngaged' ordinal='20' />
+                  <column datatype='string' name='TeleTeamRole' ordinal='21' />
+                  <column datatype='boolean' name='TeleDirtyPlay' ordinal='22' />
+                  <column datatype='string' name='EndGameNotes' ordinal='23' />
+                  <column datatype='boolean' name='Won' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FullCSVEXCOMP' name='federated.0r71nqc03xvqvb1h4szu81f8u90v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r71nqc03xvqvb1h4szu81f8u90v'>
+            <column caption='Auto High Cone' datatype='integer' default-format='N' name='[AutoHighCone]' role='measure' type='quantitative' />
+            <column caption='Auto High Cube' datatype='integer' default-format='N' name='[AutoHighCube]' role='measure' type='quantitative' />
+            <column caption='Auto Low Cone' datatype='integer' default-format='N' name='[AutoLowCone]' role='measure' type='quantitative' />
+            <column caption='Auto Low Cube' datatype='integer' default-format='N' name='[AutoLowCube]' role='measure' type='quantitative' />
+            <column caption='Auto Mid Cone' datatype='integer' default-format='N' name='[AutoMidCone]' role='measure' type='quantitative' />
+            <column caption='Auto Mid Cube' datatype='integer' default-format='N' name='[AutoMidCube]' role='measure' type='quantitative' />
+            <column caption='Auto High Cone -Score' datatype='integer' default-format='N' name='[Calculation_941815272076181505]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([AutoHighCone])*6' />
+            </column>
+            <column caption='Auto High Cube - Score' datatype='integer' default-format='N' name='[Calculation_941815272076754946]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([AutoHighCube])*6' />
+            </column>
+            <column caption='Auto Mid Cone - Score' datatype='integer' default-format='N' name='[Calculation_941815272076992515]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([AutoMidCone])*4' />
+            </column>
+            <column caption='Auto Mid Cube - Score' datatype='integer' default-format='N' name='[Calculation_941815272078266372]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([AutoMidCube])*4' />
+            </column>
+            <column caption='Auto Low Cone - Score' datatype='integer' default-format='N' name='[Calculation_941815272078491653]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([AutoLowCone])*3' />
+            </column>
+            <column caption='Auto Low Cube - Score' datatype='integer' default-format='N' name='[Calculation_941815272078684166]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([AutoLowCube])*3' />
+            </column>
+            <column datatype='string' name='[Color]' role='dimension' type='nominal' />
+            <column caption='Match Id' datatype='integer' name='[MatchId]' role='dimension' type='ordinal' />
+            <column caption='Team Id' datatype='integer' name='[TeamId]' role='dimension' type='ordinal' />
+            <column-instance column='[Color]' derivation='None' name='[none:Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MatchId]' derivation='None' name='[none:MatchId:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[TeamId]' derivation='None' name='[none:TeamId:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AutoHighCone]' derivation='Sum' name='[sum:AutoHighCone:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AutoHighCube]' derivation='Sum' name='[sum:AutoHighCube:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AutoLowCone]' derivation='Sum' name='[sum:AutoLowCone:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AutoLowCube]' derivation='Sum' name='[sum:AutoLowCube:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AutoMidCone]' derivation='Sum' name='[sum:AutoMidCone:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AutoMidCube]' derivation='Sum' name='[sum:AutoMidCube:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_941815272076181505]' derivation='User' name='[usr:Calculation_941815272076181505:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_941815272076754946]' derivation='User' name='[usr:Calculation_941815272076754946:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_941815272076992515]' derivation='User' name='[usr:Calculation_941815272076992515:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_941815272078266372]' derivation='User' name='[usr:Calculation_941815272078266372:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_941815272078491653]' derivation='User' name='[usr:Calculation_941815272078491653:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_941815272078684166]' derivation='User' name='[usr:Calculation_941815272078684166:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r71nqc03xvqvb1h4szu81f8u90v].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[sum:AutoHighCone:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[usr:Calculation_941815272076181505:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[sum:AutoHighCube:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[usr:Calculation_941815272076754946:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[sum:AutoLowCone:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[usr:Calculation_941815272078491653:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[sum:AutoLowCube:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[usr:Calculation_941815272078684166:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[sum:AutoMidCone:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[usr:Calculation_941815272076992515:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[sum:AutoMidCube:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0r71nqc03xvqvb1h4szu81f8u90v].[usr:Calculation_941815272078266372:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0r71nqc03xvqvb1h4szu81f8u90v].[none:TeamId:ok]' direction='ASC' measure-to-sort-by='[federated.0r71nqc03xvqvb1h4szu81f8u90v].[none:TeamId:ok]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0r71nqc03xvqvb1h4szu81f8u90v].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0r71nqc03xvqvb1h4szu81f8u90v].[sum:AutoHighCone:qk]' value='N' />
+            <format attr='text-format' field='[federated.0r71nqc03xvqvb1h4szu81f8u90v].[sum:AutoHighCube:qk]' value='N' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0r71nqc03xvqvb1h4szu81f8u90v].[none:TeamId:ok]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0r71nqc03xvqvb1h4szu81f8u90v].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0r71nqc03xvqvb1h4szu81f8u90v].[none:TeamId:ok] / ([federated.0r71nqc03xvqvb1h4szu81f8u90v].[none:Color:nk] / [federated.0r71nqc03xvqvb1h4szu81f8u90v].[none:MatchId:ok]))</rows>
+        <cols>[federated.0r71nqc03xvqvb1h4szu81f8u90v].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{752FAB90-CA6A-45DA-8C8E-F35C10D33832}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0r71nqc03xvqvb1h4szu81f8u90v].[none:MatchId:ok]</field>
+            <field>[federated.0r71nqc03xvqvb1h4szu81f8u90v].[none:TeamId:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{76B8A6F8-B106-4C2E-BC37-7CEAF5AD0A11}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAcuElEQVR4nO3dd3xU553v8c/0JmnUK5KQwIAQIKoNphgDNu5OruPELXWze++m+WZ3r2+c
+      6k27N9nszSbZ5BVnHduJHSeuseNACDbFxqaJIiSECiqoS6M6o6mn3j8EjmMEHjsIjc48779g
+      iuaZmfM9z3me85zfmHRd1xGEJGWe7gYIwnQSARCSmgiAkNREAISkJgIgJKzR0VFkWZ7S1xAB
+      EBJWKBRCVdUpfQ0RACGpiQAISU0EQEhqIgBCUhMBEJKaCICQVJSeN3ngCw/w6J9OIOkiAEJS
+      UWipPoirYiEjLXWEY5oIgJA89Ngwx+p1NqytQh3tpTsYwTrdjRKEyyXk66HZ6mRTSSEhd5Da
+      M+MiAELyGOis5cyR/Xx/sJ1wfxsWe70IgJAsNM40dbL589/hng1lmIaP8K3v7sUkrggTElV3
+      dzfZ2dk4nc5L8Nd0fN2tWNJLyUqxgR6lp7VHBEBIXJc2AJMTs0BCUhMBEJKaCIAwg+homsbE
+      QbuOrmlo2rsdweto6rnnvPMuXQRAmEm6eOxfvsORUQCZ6uf+L9974gjyuI9jJ5qJTfqcJn74
+      P/+DltD598iRYREAIXn11uwS5wGEmUWR/JzYv5dQisLp031IsyDWf4pf7e7nR4uLad77PP/1
+      xxqsbicOezEf+6drCA238PzP/42+7n6uvO2/85Fr52E1QWtTvegBhJlF11Qi4RChUIioJKMD
+      uq5PjAUCHTy7s5N7vvJtvvvNu3H5wuiAI62Ymz5xP5+7cwVDLZ3I2l/+nugBhBnF5sxkxZab
+      WZUpcThUz67I2+5UVWImJ6kuK5osc+5yeqvNgctpx2KzYnrbaLh09lwRAMFAvMXcUKHzs+9+
+      h9JyDwHdctGHz1p5vTgTLCSu888Eq8TCEhanC6tZR4lFkbHhtOqEJQ2PS6X9eC2tw0Hk0Sbq
+      fAv4h3/ciCMiYXe7QI0hK2YcDhsmE6DrogcQZhILDrfr7L9NWB2utzZgjwsghtWsMDY8DM55
+      3PPRDaSbLefuBKsDy9u3eJNJ9ABC4roca4Em7QFGRkYIhSY5cyAIl1EwGESWZazWqTtQmfQv
+      p6Wl4fF4puxFBSEemqaRkZGBw+GYsteYNABWq3VKUycI8bBYLNjt9ssfgMmocpSx4WEUZyZ5
+      6S50XSPsH2ZodBzd5iE3Nxu33YwSCdA3MIyCneyCAjymGP39A0RlHZc3m5zMVKxm05S9ofdG
+      JRyUcKS4ODdhNnGiJYLDk4IlUZopTJk4AxCh5tWX2X/4dXzzPsG37l5JbLyXPz39NP2yg+Do
+      MMUb7uaeK73sfOJxqgMe8tM9LNv8IeZLNfxhTx2oGv2jMW7+2KdZWeIlMbatMCcPNVCx+UpS
+      z94ih4McO3yQynVbybBPa+P+JnJ0jPZTp4hlV7K4xDvdzUlYcQbAxpzlG7AqvWyLTkwaWZ1p
+      rLv142TmptOx9zEeaTjN5tQYe0fzePD+j+K1aSiaGbOyjI99ag0OPcoLD/877f1+VibQF6Ip
+      Ev7hQWJYSfF631obousa0UgEq8ODVZcISjopLjtKNMzYeAisLjLSU7CYEiPKfy1C89HjyGaF
+      vrGoCMBFxBkAK+l5+Yy6bBA9e4s9jfxCHX/HUbYf6mXVpo30dW7Hpth55bmnUN25bNx6Hflu
+      N6d2/Iojzf0EXVXcXVGUIHv/CbFAN0cPDCOHJbLKl7FyXg4AmhSm5tjrlCy/iUKpne0nJe68
+      ahanaus40zOEZrIwb82NLMxLxG7CReXaa2HgBMNDYrnXxbzvT0fXZDqrt/GfT+xhwY0f5+aV
+      JWCy4krLoqJqCdn+ozz6fDVhTMxasJIrV6/BFWjldPcIiXTiwekt4Zobb+P2GzbgiPUTnHxR
+      OQAhXycHD1fTM+Cj90wjde1Dl6+hwpR431M94eFGfvvcYTb+j39ibVk6oFNUVgLtYQrnVVIg
+      n+T13cP09/aSk7+AZaVmhmsP0NrlY0NFTsL0AiaTGbMJpPA4YcmE5W3LR3RNQ9UU/GMjRKIO
+      TCYHufPXcP2mNTj1KAFxqmTGiy8AwRYe/tET1He0Miif5IHuZu5bbaWlrY3en3yHl6wmUpbc
+      ylc/fA3Xtf6WH3z9q2DP5Pa/vxFT9xv8+GcHCEg63pJF3LG0LGE2fjChhdt45pe1WFxZrNq4
+      hTS7CZvNjsVmJ92hsuN3j+FN96BnLMKdX8rcll088cjDmB1prLj2FpZ7Xe/+MpedSjQUQQ5F
+      iEZCjIdScLucWBJm9i1xiKUQhuSnetsemsfOdlFpRVx3zRpy06ZuPn0qXI6lECIAQsISdYEE
+      YYqJ9Q4GYOROXNf1KX1/IgAGIMsyiqJMdzMuOUVRiEajUxoAcQgkJDURACGpiQAISU2MAQwp
+      RkftMQ7XNRNSLcxetJbVVWU4L14kISmJABiShjWlmBs+tAqn6qfmRAPjsTKc7uluV+IRh0CG
+      5KSwrAiPWWKgz4fVk0/q1J1LmtFED2BIJjQ5RMupOsL2AioqS3GKXd2kRAAMSabrZA1a4VKW
+      5LqxiI3/gkQAjEjycex4C2qHj0bAnlnC2lVVpLvF1/1OYjGcAUiS9NdngjWFYDCErE6UQTZb
+      7Xg87gQqRhAfn8+H1+tNjKoQwgxitpKSJq4Djoc4OhSS2qQ9wNjYmCiNOIOoqoqmae/+wBkm
+      FAqhqioWy9SdwZt0DCBJEqqqTvZ4QbhsBgYGSE9Pv/xjALs9EUt9CMnGarXidDovf3XoyWiK
+      RDDgR7GnkZniQNc1pPA4Y4Ew2NxkZKRiN5tQpAhj4xHcaV7cdiu6rhP2DxGIKLjSskhz25lh
+      kxEA6LqKFFOxO+0JdFG/8LeKMwBRavdsY9+bu/HN/yTfunslcmiAl371CG3jThRJYuH193DL
+      PDO7977G3jcbufqjn+G2pbPQRpv5xY+fIJaaArZi7vroncyegTUHNXWU44d6WHpNFTNhVYES
+      DdDR3ISUNZ+KorTpbk7CinMWyMqsiitZu2wuTuvEkCHkb6drOJ97P3M/d67J4c2jJ7G40lm0
+      cgNLyzOYGJJptL/xLOHF9/LF+7/IEmcnB+q7edcf975sNKSYhBQLEwxF0XSVaGgcvz9ARJqY
+      V9cUifGAH38giDJjxpkRmo4cYdQ/TPtQ5N0fnsTiLo2YPauY8UY7JmnilpT0uZQXvsm2554i
+      OjjM+mtvwOLyMqvAjtN67iAhTGdrP1dsrcBhhaKibNp7BtEoT5D51xDVO/cRtktEbeVctdBD
+      /dET+IIqKdlzufba+XQc3EdN9wi6rmBPXzLdDY6Ti8p1m2DgBLtEacSLet8nwqTQMKMhB7Or
+      5hI1++n3DaFR8o4N24TJbDo7RWdGU1VMFnNCHUNrkkTBimtYkOukbs+L1DYP4nCa6ekKsKAi
+      hU5mcfuHrsOuDVO9v3e6mytcYu87AKGB0/SG87hl9VWYvYN8a0cz0VuW89dLzj1csaiM3dXV
+      hOYt4nRbP3lr8hNqEOxIL6S0MAOrFkV35nDNLZtZMjcbOTSOGhmg8ex0sCqFiRnvuvOk955K
+      I9a1NdEn1/JAdzOfvWM1C9Of4Yff+AqqLZ1Nt32E0RM7+ckzf+ZUWycc72Zg413cdctdlFX/
+      iG989VnyF2zivsqCBOoBTJjNlon2mO3Mm1PAjl1/5OBulYyC+Wy+biVlpld58pcHcGVmkpmx
+      YLobHCcdRZJRZQVFkYlJMjabFXNClnKfXmIxnCGNceDFnTSMBCf+m17CzZvXkeedCfNXfyFK
+      IwpJTZRGFIQpJgIgJDVxPYABnHdBjEEoikIkEpnSla6iBxCSmgiAkNREAISkJsYAhiTRXV/D
+      oZoGxjUrc5as58pFJThEacTziAAYkoJmy+O6O5bjUsc4dqKRQKyEHFEa8TwiAIbkoviKEnQ1
+      iq9/BJs7l5SZ9ft4l40IgCGZ0OQwbY11BMw5LFxcjksc/kxKBMCQFHobapCyF1FVkIpVTHVc
+      kAiAEUk+jh5vx5QzypkasGfM4spli/CKbuA8IgBGZM1m463XEzt7DafZ5sJtF93AZEQAjMhs
+      Jz0rZ7pbMSOI3YKQ1CbtAfx+P+Fw+HK3RXifjFoaMRwOo+v6lJZGnDQATqdzSl9UEOKhqipe
+      r3dKKxVOGgCHwzGl9RgFIR5jY2O43e7EKI0IoMlRxsMx7K4UnDYzSixCKBLDZHXg8biwmkGO
+      hglGJKx2NykeB+g6ihQlElFxez1YZ+iF2bquocgaVrs1gS7qF/5W8QdAlzj96jN8//evsuqu
+      b/Kpq5y8/OtHqPfpqLqFFTffy03zTDz/xJM0jCpABvd87jNcobXx/Mt/Yu8f+/ns099msWVm
+      bj6aOsLRAzOoNGJsnO62VuT0OVxRkDrdzUlYcc8CRUd72N8ls7GqFIDQWCvtvlw++cX/zT1r
+      s9l76Djddfs4bVvKl770AB+pjPDCvlY0RxrLrlpNeW5aAu45dVRFQVEkYpKMrmvIUpRIJIp8
+      dg5d1xRi0QiRqJRAJR3fTYSm6sMMDPTQPCAmMy4mzh5Apfnwbhwlayn2D1APeLxzmV2wn1de
+      foFI7zBr12/E17WLouKluGxOyhfOZezFFoK33cT8kjDOhDwfH+TgjjeJ2sMEKGNdlZfaQ9X0
+      +lXSiyrZsnEeXQf3cbilDwUVd84Klk93k+PionLdZlEaMQ5xfTrqyCl2VUdYsqoUk6qiqipS
+      1E8oZiMrK5usdAej/gAAb1VZ0TR0c2KVQZyMGo2QXbGBWzYtoKf2MHUtA4SCIzQdPkTPQA/t
+      Sj4fuPuj3HfXLRS7pru1wqUWVw8w0tNLVO/nt//v2wx31jOanU6VNYuuUBE3XbsRS2OYb25r
+      Zv2mDLqOthCMlXP6RAPZlfeRMtXv4G/kzCiivDgbmxZBdWWz6fbNLC7PQg6HUMK9NGPGYgY1
+      GkMSP5pjOHEFIGfxVh5cvBWAg898l5rsW1m13ExP7eP84GuH0SyprL31HuYs8rC05lG+9pU3
+      cHnn8HdfKKF736/46e8P09LYQ/2XvsGGm+/hrmsqSLixsNnBvNJctu9+if27dDLy5rHpupXM
+      Unfy60fexJ2Rgdc7f7pbKVxi77ky3MUebjLBX9193g1v3UFizIbqE80zmTBx8ff2lrOPTWyj
+      7Ht2O/XD4xP/TZ/N7TdspCB9Jsxf/YUojSgkNVEaURCmmAiAkNTE9QAGYOTSiNFoVJRGFJLX
+      VA9RRQCEpCYCICQ1MQYwJJm+ploOHD3JuGbniqUbWLmwCHFd/PlEAAxJIqplsPm/3YtbHeVo
+      TSP+aJEojTgJEQBDcjN7QRm6JjE86MfmzsYjLvCblAiAIZnQ5TDtzfWMqBlULqnALS7xnpQI
+      gCGp9DWdIJS+gKpCL3ax8V+QCIARyQMcPd6BtSDIQCPY0gtZvngBaU6RhHcSATAiSxZXX7+B
+      iDxxAYPZ4cFpTfw1rNNBBMCIzA6y8wunuxUzgpgZFpKa6AEMwGw2Y7Ua76s8976m8r0Z71NL
+      Qkbc+GEiADabbUpLI4pDICGpxbfrGKjh/zz8HKNBCU1TcJVdzefvu4HBmu28+EoNpsKl3PXh
+      WyjLsNLXfITf76xjxa13sLo8G12Nse/Zn/LnE0Ms2foJblt/Ba6EuyL+3alqgNP1Q5QvKWfq
+      9keXjq5rqIoKZgtWi9jPXUh8n0zeUh78+rf5/ve/x6dvnE+KPQM50MDLr3Zy5/1f5saCbh5+
+      7g2ivlaOtIxiUcboD0QBGDnya17ur+Sfv/4vhPY/zp76QWbkRci6xNjoODOjCLlMT+Mx9v7h
+      Sf5wtG+6G5PQ3tPBoy73sv+1NhbdfQ9eRwcejw1VVVFVC+leD66CCm67YTYv9jacfUaUxmP1
+      VK6/j0yXi0VXFHC8oxdtcW6ClEWJcLqmHc3ko743hRs2zaF29yvU9UhUrNvC2vl5hAca2L7j
+      DUYUyCi6iqXT3eS4mHB581m5wsSR0Ezor6bPewiASt/BV2nOWM+dFak4wnlUFMNv/uO7yI5M
+      rvtQ2STPUYhFFdyuiZJqbq8HZSiSQD2AQk9zHUrZYrZunkPnsdcZNGWzdImN1n2v01W4mpMH
+      +1h756fItgxRfWBguhscJytZhbNgYBhTaLrbktjiPjjUwiPs3X+GVdcuIxUYO3OU4wNF3P/Q
+      t3nggxW8+soBzv+snaRnOvENDwPgHw7gyEpNqLo6zrQCli2rwGNRGQ1HcdkdmMwu5q1aTFpw
+      HFvZAgo9VixWK+JQ2nji7gEGzxynQcnls3NyAXCkZ2MN1vDGnr3EOpvIKFiD5jvDoYbTNHd0
+      g6OaGsdVzN/yQV76+eO8FJ5LQ6vCjRvKMSdQAsw2J3arCXQ7JVmpHOqKkpXpASWG5CnEfOQQ
+      b8g+PIzhi2ROd3OFSyzuwliB3mba/G4q58/CZgZdkxloO8nJlj5IKWDp0oXYAh0cqz1NWAUw
+      kVVUydKqYgZO7qehO0hRxZVUlGaSOMtSZIb6/HgLsrEBuhyk/XQLvkAMT2YRV8wtQhvp5FRr
+      P5aUdLIzcigszCTxl5SNceDFV2js7aIv5qKg9Apu2ryOPK+oDPdOojKcIWkokoJ67qs1mbHZ
+      rJgTox5l3C5HAIx5CjHpmbHa7eLLjYMY1glJTewkDEBRFEP+TrCmaciyjNk8dftpEQAD0DTN
+      kKURz72vqfzNanEIJCQ1EQAhqYlDIIOKjHVz/OhJApqTeVVXMjvXLfZ2kxCfiSH5aTzRRdac
+      RVTOzaXj1HHGotPdpsQkegBDSqNq/WrMZhPyuI+BwUhCLT9JJCIAhmTChMr44Blqm0aZs7iS
+      NLEqelIiAAY13tvMqUETi1YuxesUX/OFiDGAEWmj1Nf7yCvKRYsG8Y+HUDSx5GsyYtdgRIqG
+      yRym5s3XALBnlrB2VRXpbvF1v5NYDWoARv2RPJ/Ph9frxeGYutru4hBISGqT9omapk35r/MJ
+      l85EYQJ1uptxyWmahqZpU/reJg3AyMgI4+PjU/aighCPSCSCpmlTuhhOjAGEhHU5rggTYwAh
+      qcUdAF/jHn7w0Jf55r/9kvqBCLquEuhp4JnHf8q24/0TD9JUBluq+cXPHuXImeG/PFn1s/93
+      P+Pff/Ey/Qm1JiXC6doWIm+7RYmGaKyrIWi8SRVhEvEFIHaaJ3/+Glf//Zf55KY0nnz4Sbp8
+      YxysPoEp2kdT/0RFoEh/I6/X9aJGBukeO7tZ6Tp9Jw+xX46inGghlFAblsLo4Ahvb5KmKAwN
+      DiDP6AusFHqbj/PKs7/k+UM9092YhBZfAEwOUlJtmEwmMNlwu9y40jK4/gN3sSA/9a2HuQor
+      ueOW6ylI+cugRddVampOsHzZShKxKEF0rIudzz3Bk89sp30k9lbVOk2J0tJQw2gEGO/lYEMX
+      oDLadpTfPP4oT/3xIGE1UYdPOlZXJitWVuFNEYuALia+AFiyWL66mO0//Bo/+V01C9etIc0e
+      z9asMVb/e+oiq1m5MDuhKsKdY3WmcdXWD3Pz2tk0H6nGL03crqsKQ75eIgogjdPpG0MabGdP
+      XR/zFldRZm5iZ83otLb9wmzkFpeS6bYl5GeeSOILwGAtLx1R+PS/fo+vfO4Omvdvp//clnIx
+      sUF2PLeDEyd38MNvPcLh1gNse60WJYEOL6xOL95UB2kZBWSkasgXOUQLB8ZRNAkpGkXzzmV+
+      vlhaMNPF9w26M8jRfBw6cIiM8WawZWPT/Zw81E59+wD9tjqO1luZk2+ho6Wd9p5+aKilIWU5
+      t37pJ9yqakATP/5fu9iypiJBKkNPUCPDnD7VgD7Sjd9SzIKzM24msxmzGqOtqY6esSaGQyWk
+      VuXjVDuwezPwmGUumhZhRrA89NBDD73roxxZzCtPZ7Czi5ijkC03bCLbGaDhWAOSt5iiFI2w
+      5iEvTaal+QyunFl4LQrYsymZnYvbbsdud5HqzaVkTiGJ83O1JixIDA6OoHsKWFo1nxS7GYfL
+      jTc9E6/LxvDgMM6sYspKi8nLz6Mww0ZPTz9h2UJhaTGpjoR5M2/jp3rbDvYeraWppZ0zA+MU
+      FBTgccysHisQCOB2u6f0J6DEiTBDUomGIkjq2WNNsxW324V1hl0WJkojCu+TBacnhZlVCnd6
+      iDPBQlITPYABGHk1qCiNKLwrVVUNeUGMKI0oCFNMBEBIauIQyKCi/l7qahsZ1xzMqVxOcbZL
+      7O0mIT4TQ/LTcLwdV34ZpQUptJ6swZ9Qy9ATh+gBDCmNqg1XT5RGDA4yOtaJWBU3OREAQzJh
+      MqmERro4cWqQ0oULRWnECxABMKhgXwsn+xQqViwjwyW+5gsRYwAj0v00nBpkVnkpdl0iHI2h
+      idKIkxK7BiOSZCRpmP07twFgz57NxjUryBClEc8jVoMagCiN+P6JQyAhqU3aJ4pOYWbRdd2Q
+      39m59zSV723SAAwNDREIBKbsRQUhHpFIBFmWRWlEITmJ0oiCMMXinhcbat7H717YQ9hTxq0f
+      +RALchyM959m1559uBfdxtYluWjyODW7X2bbgdN4Slfw8Xu30L/raZ4+0Hr2r3i5+o47ub6q
+      JEGSF6WtvpfCyvK3Lh9UomHa2lopmrcYj5g1NLw4SyO28tTDu1h052f44Eorv3nkd3T7Rjlw
+      8AjR0Tbqe8YBndEzDZzRZ/HZf/4Cq80HeXhHJ/O23MWDDz7Igw/8I9laLzZnSgItS5EZ6h9C
+      ftstmiLj6+9FSqDaRe+dwkBbHbuef4wXq3unuzEJLc4dsRWHy4HL48bl8uCwWnGmZrD1g/ey
+      qMj71qMy5qzgA9evJ9NlR5UlrBYbZpsDl8tFrH0PXa41VJVlJlAAIObvYfdLT/PMizvpGH17
+      acQYbc11Ez8wHeznSFMPoDJ2poZnn/oNz/25mnDCnl3V0U1uqpYuJsVtm+7GJLT4AmDLYeXV
+      hbz8g6/yo6cOUbl+HWmOd27GJsxmM9GRDl547KfskdbwD1tKsQB6rI/tLxxj9QduICvBFmVZ
+      7G6q1t/Exqp8Go8cIXC2O9BVGV9fF2EZiPlp6x9BHu7g9fo+Zs9fQJHWxK7asWlt+4XZyC+b
+      Q3aKKI34buIsjVjHH6pl/u5fv8dXPvNBmvZvZ2CS0oiKv4PnH32UocItfP5Tt5LuMAM6g83H
+      qaGCLQs8CfeFWF0ZZGWmkp1XTEaqhiRf+LGhMT/hSIBgIEDUWcTszMQYyQjvX3zDPGcKXmWY
+      2ppaMgINaBYvFn2c07VNtHQPM2hvpr7FAR2vcNifzceLrHQ1N+DPLaU4z031vkOUr76TtATc
+      XtToKB2treiDnYypucz/q9KIEl3tTQyM1DMSmEXK4lycJheZs4rxmGQ0ZvRAQSDe0ojOHObN
+      dnOmsZEAOVx301ZyHaMcfa0avzOPHFuYkZiD2aV52GNh+nwDDPh86O4CivPdBGNQVVWFN+Gq
+      FZtACdLd1YfkyGHZ8kpSbWZsdgfezCxSHdDX1YvVW0hJSTGFhQUUpkFrawdjIY2C0lLSEqfO
+      49sEOP7KLt48fpKmtg56h4Pk5uXhFqURzyNOhBmSQnA0QPRcaUSLHW9aCjZLAnbBFyFKIwrv
+      k5WUjExSprsZM8DM2iUIwiUmegADUFUVTTPegPxcacSpXAwnAmAARi+NKMsXmZv+G4lDICGp
+      iQAISU0cAhlULDDAqVOnCel2Zs9fTGGmKI04GfGZGJKf+qPNkJpDdqqZproTBGLT3abEJHoA
+      Q0pj6TXrMJtNKMEhQpEziLOdkxMBMCQTJpNG1N/N8bo+Zs1fIEojXoAIgEGF+lup644wf8Uy
+      Ml3imoALEWMAI9IDNDcNMbtiAak2E4qqGrJsyqUgegAjkqIE/D3U/74FAEdOOVvWX0WmuMj5
+      PGI1qAGI0ojv3/8HQgjJeOR0Y2UAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
